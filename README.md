@@ -1,7 +1,7 @@
 # Project-2-Part1:Toxic Comment Classification
 # Introduction
 
-In this part, we are going to explore basic text processing using the toxic comment text classification dataset. Although the machine learning and text processing techniques employed are not sophisticated, our primary objective is to convert the comment text column into a sparse vector representation that can be utilized by a classification algorithm within the Spark ML library.
+In this part, we were going to explore basic text processing using the toxic comment text classification dataset. Although the machine learning and text processing techniques employed were not sophisticated, our primary objective was to convert the comment text column into a sparse vector representation that could be utilized by a classification algorithm within the Spark ML library.
 
 # Data Description
 
@@ -9,7 +9,7 @@ The Toxic Comment Text Classification dataset is a large dataset originally rele
 
 # Model Explanation and Evaluation
 
-The chosen model for this task is Logistic Regression, which is implemented using the PySpark 'LogisticRegression' class. 
-The model is trained separately for each label column in the 'out\_cols' list, excluding the 'id' and 'comment\_text' columns. The regularization parameter (REG) is set to 0.1 to prevent overfitting. For each label, the model is fit on the training dataset with TF-IDF features and then used to make predictions on the test dataset. The probability of a comment being classified as toxic is extracted and added to the 'test\_res' DataFrame. This process is repeated for all labels in the 'out\_cols' list.
+The chosen model for this task was Logistic Regression, which was implemented using the PySpark 'LogisticRegression' class. 
+The model was trained separately for each label column in the 'out\_cols' list, excluding the 'id' and 'comment\_text' columns. The regularization parameter (REG) was set to 0.1 to prevent overfitting. For each label, the model was fit on the training dataset with TF-IDF features and then used to make predictions on the test dataset. The probability of a comment being classified as toxic was extracted and added to the 'test\_res' DataFrame. This process was repeated for all labels in the 'out\_cols' list.
 
 We got the first 20 rows with the comment ids and the predicted probabilities for each class as output. 
