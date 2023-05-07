@@ -1,7 +1,7 @@
 # Part2-Heart Disease Prediction using Logistic Regressionx
 # Introduction
 
-In this part, we designed a Python script used Logistic Regression to identify the most significant risk factors associated with heart disease and predict overall risk levels. In this question, we will be using the Framingham Heart dataset.
+In this part, we designed a Python script used Logistic Regression to identify the most significant risk factors associated with heart disease and predicted overall risk levels. In this question, we would be using the Framingham Heart dataset.
 
 # Dataset Description
 
@@ -9,4 +9,4 @@ The Framingham Heart Dataset is originated from the Framingham Heart Study, with
 
 # Model Explanation and Results
 
-The chosen model for this task was logistic regression, so we implemented using the PySpark 'LogisticRegression' class. Logistic regression is a popular choice for binary classification tasks as it provides an interpretable and efficient method for predicting probabilities. The model was trained on the preprocessed and standardized features in the training dataset, and predictions were made on the test dataset. The performance of the logistic regression model was evaluated using the area under the receiver operating characteristic (ROC) curve, and we got the AUC score with 0.752, which means that the model was able to distinguish between positive and negative classes with a moderate performance.
+The chosen model for this task was logistic regression, so we implemented using the PySpark 'LogisticRegression' class. Logistic regression is a popular choice for binary classification tasks as it provides an interpretable and efficient method for predicting probabilities. The model was trained on the preprocessed and standardized features in the training dataset, and predictions were made on the test dataset. The performance of the logistic regression model was evaluated using the area under the receiver operating characteristic (ROC) curve, and we got the AUC score with 0.752, which meant that the model was able to distinguish between positive and negative classes with a moderate performance.
