@@ -5,7 +5,7 @@ In this part, we were going to explore basic text processing using the toxic com
 
 # Data Description
 
-**This data set must place at dir: "/fp/data/p1d", and the file name of this csv file must be "train.csv" and "test.csv"!**
+**This data set must place at dir: "/fp/data/p1d", and the file name must be "train.csv" and "test.csv"!**
 
 The Toxic Comment Text Classification dataset is a large dataset originally released by Jigsaw and Google. The data is formatted as a csv file, with each row representing a unique comment. The columns in the dataset include id, comment\_text, and other binary labels (0 or 1) indicating whether the comment falls into the respective toxicity category. 
 
