@@ -5,6 +5,8 @@ In this part, we designed a Python script used Logistic Regression to identify t
 
 # Dataset Description
 
+**This data set must place at dir: "/fp/data/p2d", and the file name of this csv file must be "framingham.csv" and "heart.csv"!**
+
 The Framingham Heart Dataset is originated from the Framingham Heart Study, with an initial cohort of 5209 subjects. The Framingham Heart dataset comprises various demographic, clinical, and laboratory attributes collected from the study participants. The data typically includes various demographic information about patients, such as age, sex, BMI, the measurement information of patients such as heart rate, total cholesterol level, systolic blood pressure, diastolic blood pressure, and fasting blood pressure etc., and the outcome of the presence or absence of coronary heart disease. This dataset enables researchers to investigate the relationship between various risk factors. 
 
 # Model Explanation and Results
