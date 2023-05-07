@@ -5,6 +5,8 @@ In this part, we aimed at training a binary classification and predicting an ind
 
 # Dataset Description
 
+**This data set must place at dir: "/fp/data/p3d", and the file name must be "train.csv" and "test.csv"!**
+
 The dataset on Census Dataset consists of anonymized information such as age, occupation, education, and working class, with the goal of training a binary classifier to predict income levels, either >50K or <50K. With 48,842 instances and 14 attributes, the dataset offers a diverse mix of categorical, numerical, and missing values. We utilized Spark ML/MLlib's logistic regression capabilities to train our model and evaluate its performance, aiming to achieve a high accuracy rate.
 
 # Model Explanation and Results
